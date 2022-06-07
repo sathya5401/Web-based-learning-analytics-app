@@ -52,7 +52,7 @@
 							 	<?php if($status->num_rows <= 0): ?>
 							 	<a class="btn btn-sm btn-outline-primary" href="./answer_sheet.php?id=<?php echo $row['id']?>"><i class="fa fa-pencil"></i> Take Quiz</a>
 								<?php else: ?>
-								<a class="btn btn-sm btn-outline-primary" href="./view_answer.php?id=<?php echo $row['id']?>"><i class="fa fa-eye"></i> View</a>
+								<a> None</a>
 							<?php endif; ?>
 							</center>
 						</td>
