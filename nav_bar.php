@@ -25,17 +25,17 @@
 		<?php endif; ?>
 			<div id="sidebar-field">
 				<a href="student.php" class="sidebar-item text-dark">
-						<div class="sidebar-icon"><i class="fa fa-users"> </i></div>  Student List
+						<div class="sidebar-icon"><i class="fa fa-user-circle-o"> </i></div>  Student List
 				</a>
 			</div>
 			<div id="sidebar-field">
 				<a href="quiz.php" class="sidebar-item text-dark">
-						<div class="sidebar-icon"><i class="fa fa-list"> </i></div>  Quiz List
+						<div class="sidebar-icon"><i class="fa fa-list-alt"> </i></div>  Quiz List
 				</a>
 			</div>
 			<div id="sidebar-field">
 				<a href="history.php" class="sidebar-item text-dark">
-						<div class="sidebar-icon"><i class="fa fa-history"> </i></div>  Quiz Records
+						<div class="sidebar-icon"><i class="fa fa-database"> </i></div>  Quiz Records
 				</a>
 			</div>
 			<?php else: ?>
