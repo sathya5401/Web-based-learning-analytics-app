@@ -8,14 +8,15 @@
 				</div>
 			</div>
 		</nav>
-		<div id="sidebar" class="bg-light">
+		
+			<?php if($_SESSION['login_user_type'] != 3): ?>
+			<?php if($_SESSION['login_user_type'] == 1): ?>
+				<div id="sidebar" class="bg-light">
 			<div id="sidebar-field">
 				<a href="home.php" class="sidebar-item text-dark">
 						<div class="sidebar-icon"><i class="fa fa-home"> </i></div>  Home
 				</a>
 			</div>
-			<?php if($_SESSION['login_user_type'] != 3): ?>
-			<?php if($_SESSION['login_user_type'] == 1): ?>
 			<div id="sidebar-field">
 				<a href="faculty.php" class="sidebar-item text-dark">
 						<div class="sidebar-icon"><i class="fa fa-users"> </i></div>  Faculty List
@@ -38,11 +39,17 @@
 				</a>
 			</div>
 			<?php else: ?>
+				<div id="sidebar" class="bg-light">
 			<div id="sidebar-field">
+				<a href="student_quiz_list.php" class="sidebar-item text-dark">
+						<div class="sidebar-icon"><i class="fa fa-home"> </i></div>  Home
+				</a>
+			</div>
+			<!-- <div id="sidebar-field">
 				<a href="student_quiz_list.php" class="sidebar-item text-dark">
 						<div class="sidebar-icon"><i class="fa fa-list"> </i></div>  Quiz List
 				</a>
-			</div>
+			</div> -->
 		<?php endif; ?>
 
 		</div>
