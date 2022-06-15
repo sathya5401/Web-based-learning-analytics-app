@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,27 +19,30 @@
             <h3 class="he3-responsive text-white">Simple Online Quiz System</h3>
         </div>
 		<div class="card col-md-4 offset-md-4 mt-4">
-                <div class="card-header-edge text-white">
-                    <strong>Login</strong>
-                </div>
-            <div class="card-body">
-                     <form id="login-frm">
-                        <div class="form-group">
-                            <label>Username</label>
-                            <input type="username" name="username" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" name="password" class="form-control">
-                        </div> 
-                        <div class="form-group text-right">
-                            <button class="btn btn-primary btn-block" name="submit">Login</button>
-                        </div>
-                        
-                    </form>
-            </div>
+            <div class="card-header-edge text-white">
+                <strong>Login</strong>
+			</div>
+			<div class="card-body">
+                <form id="login-frm">
+					<div class="form-group">
+                        <label>Username</label>
+                        <input type="username" name="username" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control">
+                    </div> 
+                    <div class="form-group text-right">
+                         <button class="btn btn-primary btn-block" name="submit">Login</button>
+                    </div>                       
+                </form>
+			</div>
+			<div>
+				<p> <a href=register.php> Register account </p>
+			</div>
         </div>
+		
 
-		</body>
+	</body>
 
         <script>
             $(document).ready(function(){
