@@ -11,38 +11,39 @@
         }
         ?>
 		<title>Login | Simple Online Quiz System</title>
-	</head>
-
-	<body id='login-body' class="bg-light">
-
-        <div class="card col-md-6 offset-md-3 text-center bg-primary mb-4">
-            <h3 class="he3-responsive text-white">Simple Online Quiz System</h3>
-        </div>
-		<div class="card col-md-4 offset-md-4 mt-4">
-            <div class="card-header-edge text-white">
-                <strong>Login</strong>
+        <link rel="stylesheet" href="assets/css/login/login.css">
+    </head>
+    <body>
+		<section class="login first grey">
+			<div class="container login-box">
+				<div class="box-wrapper login-flex">				
+					<div class="box box-border">
+						<div class="box-body login-alignment">
+							<div class="login-color" >Login</div>
+							<div class="login-quiz">Online Quiz System</div>
+							<form id="login-frm">
+								<div class="form-group">
+									<input type="username" name="username" class="form-control login-form"  placeholder="Username"  required />
+								</div>
+								<div class="form-group">
+									<input type="password" name="password" class="form-control login-form"  placeholder="Password" required />
+                                </div>
+                                
+								<div class="login-button-alignment">
+									<button class="login-button" name="submit">Login</button>
+								</div>
+								<p> <a href=register.php> Register account </p>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="card-body">
-                <form id="login-frm">
-					<div class="form-group">
-                        <label>Username</label>
-                        <input type="username" name="username" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" name="password" class="form-control">
-                    </div> 
-                    <div class="form-group text-right">
-                         <button class="btn btn-primary btn-block" name="submit">Login</button>
-                    </div>                       
-                </form>
-			</div>
-			<div>
-				<p> <a href=register.php> Register account </p>
-			</div>
-        </div>
-		
+		</section>
 
+		<script src="js/jquery.js"></script>
+		<script src="scripts/bootstrap/bootstrap.min.js"></script>
 	</body>
+	
 
         <script>
             $(document).ready(function(){

@@ -1,44 +1,45 @@
-.register-box{
+.login-box{
     width: 100vw;
     margin-top: 100px;
 }
 
-.register-flex{
+.login-flex{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.register-text{
+.login-text{
     margin-top: 20px;
     color:#888888;
     margin-bottom: 20px;
 }
 
-.register-color{
+.login-color{
     color:#2B3A67;
     font-size: 30px;
     font-family: 'Arial';
     font-weight: 600;
 }
 
-.register-quiz{
+.login-quiz{
     color: red;
     font-family: "Arial";
     font-size: 25;
     font-weight: 600;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-.register-form{
+.login-form{
     margin-bottom: 10px;
     padding: 5px 15px 5px 15px;
     width: 20vw;
     min-width: 300px;
 }
 
-.register-button-alignment{
+.login-button-alignment{
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -47,16 +48,16 @@
     justify-content: center;
 }
 
-.register-button{
-    padding: 10px 20px 10px 20px;
+.login-button{
+    padding: 8px 20px 8px 20px;
     background-color: #A8B9EA;
     border: none;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
 }
 
-.register-button:hover{
+.login-button:hover{
     background-color:#3e69e9;
     color: white;
 }
