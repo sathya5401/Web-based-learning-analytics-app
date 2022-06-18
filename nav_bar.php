@@ -3,7 +3,7 @@
 		 Online Quiz System
 	</div>
 	<div >
-		<a href="logout.php" class="navbar-elements" ><?php echo $name ?>  Logout <i class="fa fa-power-off navbar-elements" style= "padding-left: 20px;"></i></a>
+		<a href="logout.php" class="navbar-elements" ><?php echo " <span style='padding-right: 20px'>". $name."</span>"; ?>  Logout <i class="fa fa-power-off navbar-elements" style= "padding-left: 20px;"></i></a>
 	</div>
 </div>
 
@@ -27,7 +27,8 @@
 				</a>
 			</div>
 			<div id="sidebar-field">
-				<a href="faculty.php" class="sidebar-item text-dark">Lecturer List
+				<a href="faculty.php" class="sidebar-item text-dark">
+						<div class="sidebar-icon"><i class="fa fa-users"> </i></div>  Lecturer List
 				</a>
 			</div>
 		<?php endif; ?>
