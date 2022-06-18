@@ -47,7 +47,8 @@
 		<link rel="stylesheet" href="scripts/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="scripts/ionicons/css/ionicons.min.css">
 		<link rel="stylesheet" href="css/form.css">
-        <style type="text/css">
+        <link rel="stylesheet" href="assets/css/register/register.css">
+		<style type="text/css">
             body{
                   width: 100%;
                   background: url(image/book.png) ;
@@ -61,35 +62,31 @@
 
 	<body>
 		<section class="login first grey">
-			<div class="container">
-				<div class="box-wrapper">				
+			<div class="container register-box">
+				<div class="box-wrapper register-flex">				
 					<div class="box box-border">
-						<div class="box-body">
-							<center> <h5 style="font-family: Noto Sans;">Register to </h5><h4 style="font-family: Noto Sans;">Online Quiz System</h4></center><br>
+						<div class="box-body register-alignment">
+							<div class="register-color" >Register to </div>
+							<div class="register-text">first time register as user? Sign up</div>
+							<div class="register-quiz">Online Quiz System</div>
 							<form method="post" action="register.php" enctype="multipart/form-data">
                                 <div class="form-group">
-									<label>Enter Your Username:</label>
-									<input type="text" name="name" class="form-control" required />
+									<input type="text" name="name" class="form-control register-form"  placeholder="Username" required />
 								</div>
 								<div class="form-group">
-									<label>Enter Your Email Id:</label>
-									<input type="email" name="email" class="form-control" required />
+									<input type="email" name="email" class="form-control register-form"  placeholder="Email"  required />
 								</div>
 								<div class="form-group">
-									<label>Enter Your Password:</label>
-									<input type="password" name="password" class="form-control" required />
+									<input type="password" name="password" class="form-control register-form"  placeholder="Password" required />
                                 </div>
 								<div class="form-group">
-									<label>Enter Your College Name:</label>
-									<input type="text" name="college" class="form-control" required />
+									<input type="text" name="college" class="form-control register-form"  placeholder="College" required />
 								</div>
                                 
-								<div class="form-group text-right">
-									<button class="btn btn-primary btn-block" name="submit">Register</button>
+								<div class="register-button-alignment">
+									<button class="register-button" name="submit">Register</button>
 								</div>
-								<div class="form-group text-center">
-									<span class="text-muted">Already have an account! </span> <a href="login.php">Login </a> Here..
-								</div>
+								<div class="register-text">Already have an account! <a href="login.php">Login</a> Here..</div>
 							</form>
 						</div>
 					</div>
