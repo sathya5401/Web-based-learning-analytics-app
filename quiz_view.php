@@ -6,6 +6,7 @@
 	<?php include('auth.php') ?>
 	<?php include('db_connect.php') ?>
 	<title>Quiz List</title>
+	<link rel="stylesheet" href="assets/css/navbar/navbar.css">
 
 	<?php 
 	$qry = $conn->query("SELECT * FROM quiz_list where id = ".$_GET['id'])->fetch_array();
