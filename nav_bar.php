@@ -23,7 +23,7 @@
 				<div id="sidebar" class="bg-light">
 			<div id="sidebar-field">
 				<a href="home.php" class="sidebar-item text-dark">
-						<div class="sidebar-icon"><i class="fa fa-home"> </i></div>  Home
+						<div class="sidebar-icon"><i class="fa fa-home"> </i></div>   Home
 				</a>
 			</div>
 			<div id="sidebar-field">

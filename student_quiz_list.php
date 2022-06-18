@@ -7,6 +7,7 @@
 	<?php include('auth.php') ?>
 	<?php include('db_connect.php') ?>
 	<title>My Quiz List</title>
+	<link rel="stylesheet" href="assets/css/navbar/navbar.css">
 </head>
 <body>
 	<?php include('nav_bar.php') ?>
