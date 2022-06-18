@@ -1,0 +1,26 @@
+.navbar-containers{
+    background: #2B3A67;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+
+.navbar-elements{
+    color:white;
+
+}
+
+.navbar-title{
+    font-size: 25px;
+    font-weight: 600;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover{
+    color: white;
+    text-decoration-line: none;
+}
