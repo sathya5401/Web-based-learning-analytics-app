@@ -1,9 +1,9 @@
 <div class = "navbar-containers"> 
 	<div class = "navbar-title">
-		Simple Online Quiz System
+		 Online Quiz System
 	</div>
 	<div >
-		<a href="logout.php" class="navbar-elements "><?php echo $name ?> <i class="fa fa-power-off navbar-elements"></i></a>
+		<a href="logout.php" class="navbar-elements" ><?php echo $name ?>  Logout <i class="fa fa-power-off navbar-elements" style= "padding-left: 20px;"></i></a>
 	</div>
 </div>
 
@@ -27,8 +27,7 @@
 				</a>
 			</div>
 			<div id="sidebar-field">
-				<a href="faculty.php" class="sidebar-item text-dark">
-						<div class="sidebar-icon"><i class="fa fa-users"> </i></div>  Faculty List
+				<a href="faculty.php" class="sidebar-item text-dark">Lecturer List
 				</a>
 			</div>
 		<?php endif; ?>
