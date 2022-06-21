@@ -3,8 +3,9 @@
 		 Online Quiz System
 	</div>
 	<div >
+	
 		<span><?php echo " <span style='padding-right: 20px;color:white;'>". $name."</span>"; ?></span>
-		<a href="logout.php" class="navbar-elements" >  Logout <i class="fa fa-power-off navbar-elements" ></i></a>
+		<a href="logout.php" class="navbar-elements" >  Logout <i class="fa fa-power-off navbar-elements" style="padding-left:10px;"></i></a>
 	</div>
 </div>
 <!-- 
