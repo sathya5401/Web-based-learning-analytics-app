@@ -3,20 +3,26 @@
 		 Online Quiz System
 	</div>
 	<div >
-		<a href="logout.php" class="navbar-elements" ><?php echo " <span style='padding-right: 20px'>". $name."</span>"; ?>  Logout <i class="fa fa-power-off navbar-elements" style= "padding-left: 20px;"></i></a>
+		<span><?php echo " <span style='padding-right: 20px;color:white;'>". $name."</span>"; ?></span>
+		<a href="logout.php" class="navbar-elements" >  Logout <i class="fa fa-power-off navbar-elements" ></i></a>
 	</div>
 </div>
-
-	<!-- <nav class = "navbar navbar-header navbar-light bg-primary" >
+<!-- 
+	 <nav class = "navbar navbar-header navbar-light bg-primary" >
 			<div class = "container-fluid">
-				<div class = "navbar-header">
-					<p class = "navbar-text pull-right text-white"><h3>Simple Online Quiz System</h3></p>
-				</div>
-				<div class = "nav navbar-nav navbar-right">
-					<a href="logout.php" class="text-dark"><?php echo $name ?> <i class="fa fa-power-off"></i></a>
+				<div class = "navbar-header"></div>
+				<div class = "nav navbar-nav">
+					<div style="
+						justify-content:space-between;
+						display:flex;
+						padding-right: 30px;
+					">
+					<i class="fa fa-power-off navbar-elements" style= "padding-left: 10px;align-self: center;"></i>
+					
+					</div>
 				</div>
 			</div>
-		</nav> -->
+		</nav>  -->
 		
 			<?php if($_SESSION['login_user_type'] != 3): ?>
 			<?php if($_SESSION['login_user_type'] == 1): ?>
@@ -32,6 +38,7 @@
 				</a>
 			</div>
 		<?php endif; ?>
+		<div id="sidebar" class="bg-light">
 			<div id="sidebar-field">
 				<a href="student.php" class="sidebar-item text-dark">
 						<div class="sidebar-icon"><i class="fa fa-user-circle-o"> </i></div>  Student List
@@ -62,6 +69,7 @@
 		<?php endif; ?>
 
 		</div>
+			</div>
 		<script>
 			$(document).ready(function(){
 				var loc = window.location.href;
