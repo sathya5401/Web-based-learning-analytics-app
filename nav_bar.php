@@ -2,11 +2,13 @@
 	<div class = "navbar-title">
 		 Online Quiz System
 	</div>
-	<div >
-	
-		<span><?php echo " <span style='padding-right: 20px;color:white;'>". $name."</span>"; ?></span>
-		<a href="logout.php" class="navbar-elements" >  Logout <i class="fa fa-power-off navbar-elements" style="padding-left:10px;"></i></a>
+	<div style="display:flex;flex-direction:row">
+		<div style="display:flex;flex-direction:row"><div class="sidebar-icon"><i class="fa fa-user-circle-o" style="color:white;margin-right:10px"> </i></div><?php echo " <span style='padding-right: 20px;color:white;'>". $name."</span>"; ?></div>
+		<div >
+			<a href="logout.php" class="navbar-elements" >  Logout <i class="fa fa-power-off navbar-elements" style="padding-left:10px;"></i></a>
+		</div>
 	</div>
+	
 </div>
 <!-- 
 	 <nav class = "navbar navbar-header navbar-light bg-primary" >

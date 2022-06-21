@@ -15,29 +15,32 @@
     </head>
     <body>
 		<section class="login first grey">
-			<div class="container login-box">
-				<div class="box-wrapper login-flex">				
-					<div class="box box-border">
-						<div class="box-body login-alignment">
-							<div class="login-color" >Login</div>
-							<div class="login-quiz">Online Quiz System</div>
-							<form id="login-frm">
-								<div class="form-group">
-									<input type="username" name="username" class="form-control login-form"  placeholder="Username"  required />
-								</div>
-								<div class="form-group">
-									<input type="password" name="password" class="form-control login-form"  placeholder="Password" required />
-                                </div>
-                                
-								<div class="login-button-alignment">
-									<button class="login-button" name="submit">Login</button>
-								</div>
-								<p> <a href=register.php> Register account </p>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
+            <img src="https://cdn.wallpapersafari.com/32/24/GLWRuH.jpg" alt="test" class="login-img">
+			<div style="padding:50px">
+                <div class="container login-box">
+                    <div class="box-wrapper login-flex">				
+                        <div class="box box-border">
+                            <div class="box-body login-alignment">
+                                <div class="login-color" >Login</div>
+                                <div class="login-quiz">Online Quiz System</div>
+                                <form id="login-frm">
+                                    <div class="form-group">
+                                        <input type="username" name="username" class="form-control login-form"  placeholder="Username"  required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" name="password" class="form-control login-form"  placeholder="Password" required />
+                                    </div>
+                                    
+                                    <div class="login-button-alignment">
+                                        <button class="login-button" name="submit">Login</button>
+                                    </div>
+                                    <p> <a href=register.php> Register account </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</section>
 
 		<script src="js/jquery.js"></script>

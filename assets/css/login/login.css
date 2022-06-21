@@ -1,6 +1,8 @@
 .login-box{
-    width: 100vw;
-    margin-top: 100px;
+    padding: 50px 10px 50px 10px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(30,30,30,0.5);
 }
 
 .login-flex{
@@ -61,4 +63,13 @@
 .login-button:hover{
     background-color:#3e69e9;
     color: white;
+}
+
+.login-img{
+    position:fixed; 
+    z-index:-100;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
