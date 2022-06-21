@@ -9,7 +9,10 @@
 	<link rel="stylesheet" href="assets/css/navbar/navbar.css">
 </head>
 <body>
-	<?php include('nav_bar.php') ?>
+	
+<?php 
+    include 'nav_bar.php';
+    ?>
 	
 	<div class="container-fluid admin">
 		<div class="col-md-12 alert alert-primary">Faculty List</div>
@@ -45,10 +48,10 @@
 						<td><?php echo $row['name'] ?></td>
 						<td><?php echo $row['subject'] ?></td>
 						<td>
-							<center>
+							<div>
 							 <button class="btn btn-sm btn-outline-primary edit_faculty" data-id="<?php echo $row['id']?>" type="button"><i class="fa fa-edit"></i> Edit</button>
 							<button class="btn btn-sm btn-outline-danger remove_faculty" data-id="<?php echo $row['id']?>" type="button"><i class="fa fa-trash"></i> Delete</button>
-							</center>
+						</div>
 						</td>
 					</tr>
 					<?php
