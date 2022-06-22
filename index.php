@@ -6,6 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
      
     <body>
-       <?php header('location:login.php') ?>
+       <?php header('location:login.php')?>
     </body>
 </html>

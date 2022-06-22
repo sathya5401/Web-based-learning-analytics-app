@@ -50,7 +50,7 @@
                         <td><?php echo $row['title'] ?></td>
                         <td class='text-center'><?php echo $items ?></td>
                         <?php if($_SESSION['login_user_type'] == 3): ?>
-                        <td class='text-center'><?php echo $taken > 1 ? 'Taken' : 'Pending' ?></td>
+                        <td class='text-center'><?php echo $taken >= 1 ? 'Taken' : 'Pending' ?></td>
                         <?php else: ?>
                         <td class='text-center'><?php echo $taken ?></td>
                         <?php endif; ?>

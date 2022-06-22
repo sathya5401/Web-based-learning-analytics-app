@@ -68,7 +68,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							
-							<h4 class="modal-title" id="myModallabel">Add New Faculty</h4>
+							<h4 class="modal-title" id="myModallabel">Add New Lecturer</h4>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 						<form id='faculty-frm'>
@@ -107,7 +107,7 @@
 		$('#table').DataTable();
 		$('#new_faculty').click(function(){
 			$('#msg').html('')
-			$('#manage_faculty .modal-title').html('Add New Faculty')
+			$('#manage_faculty .modal-title').html('Add New Lecturer')
 			$('#manage_faculty #faculty-frm').get(0).reset()
 			$('#manage_faculty').modal('show')
 		})
@@ -125,7 +125,7 @@
 						$('[name="subject"]').val(resp.subject)
 						$('[name="username"]').val(resp.username)
 						$('[name="password"]').val(resp.password)
-						$('#manage_faculty .modal-title').html('Edit Faculty')
+						$('#manage_faculty .modal-title').html('Edit Lecturer')
 						$('#manage_faculty').modal('show')
 
 					}
