@@ -21,8 +21,8 @@
                     <div class="box-wrapper login-flex">				
                         <div class="box box-border">
                             <div class="box-body login-alignment">
-                                <div class="login-color" >Login</div>
-                                <div class="login-quiz">Online Quiz System</div>
+                                <div class="login-color" >Online Quiz System</div>
+                                <div class="login-quiz">Login</div>
                                 <form id="login-frm">
                                     <div class="form-group">
                                         <input type="username" name="username" class="form-control login-form"  placeholder="Username"  required />
