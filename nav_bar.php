@@ -40,8 +40,6 @@
 						<div class="sidebar-icon"><i class="fa fa-users"> </i></div>  Lecturer List
 				</a>
 			</div>
-		<?php endif; ?>
-		<div id="sidebar" class="bg-light">
 			<div id="sidebar-field">
 				<a href="student.php" class="sidebar-item text-dark">
 						<div class="sidebar-icon"><i class="fa fa-user-circle-o"> </i></div>  Student List
@@ -57,6 +55,32 @@
 						<div class="sidebar-icon"><i class="fa fa-database"> </i></div>  Quiz Records
 				</a>
 			</div>
+		
+		<?php elseif($_SESSION['login_user_type'] == 2):?>
+		
+		<div id="sidebar" class="bg-light">
+			
+			<div id="sidebar-field">
+				<a href="home.php" class="sidebar-item text-dark">
+						<div class="sidebar-icon"><i class="fa fa-home"> </i></div>   Home
+				</a>
+			</div>
+			<div id="sidebar-field">
+				<a href="student.php" class="sidebar-item text-dark">
+						<div class="sidebar-icon"><i class="fa fa-user-circle-o"> </i></div>  Student List
+				</a>
+			</div>
+			<div id="sidebar-field">
+				<a href="quiz.php" class="sidebar-item text-dark">
+						<div class="sidebar-icon"><i class="fa fa-list-alt"> </i></div>  Quiz List
+				</a>
+			</div>
+			<div id="sidebar-field">
+				<a href="history.php" class="sidebar-item text-dark">
+						<div class="sidebar-icon"><i class="fa fa-database"> </i></div>  Quiz Records
+				</a>
+			</div>
+			<?php endif; ?>
 			<?php else: ?>
 				<div id="sidebar" class="bg-light">
 			<div id="sidebar-field">

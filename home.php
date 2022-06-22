@@ -15,6 +15,7 @@
     include 'nav_bar.php';
     ?>
     <div class="container-fluid admin">
+        <div class="col-md-12 alert alert-primary">Simple Quiz Dashboard</div>
         <div class="card col-md-5 offset-2">
             <div class="card-body">
                 <table class="table table-striped">

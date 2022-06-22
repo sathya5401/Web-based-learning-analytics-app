@@ -19,8 +19,8 @@
 		$college = $_POST['college'];
 		$college = stripslashes($college);
 		$college = addslashes($college);
-		$str="SELECT email from user WHERE email='$email'";
-		$result=mysqli_query($con,$str);
+		$str="SELECT username from user WHERE username='$name'";
+		$result=mysqli_query($conn,$str);
 		
 		if((mysqli_num_rows($result))>0)	
 		{
@@ -30,7 +30,7 @@
 		else
 		{
             $str="insert into user set name='$name',email='$email',password='$password',college='$college'";
-			if((mysqli_query($con,$str)))	
+			if((mysqli_query($conn,$str)))	
 			echo "<center><h3><script>alert('Congrats.. You have successfully registered !!');</script></h3></center>";
 			header('location: welcome.php?q=1');
 		}

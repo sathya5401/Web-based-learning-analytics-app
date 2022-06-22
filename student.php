@@ -29,7 +29,7 @@
 						<tr>
 							<th>#</th>
 							<th>Name</th>
-							<th>Subject</th>
+							<th>Major</th>
 							<th>Action</th>
 						</tr>
 					</thead>
@@ -65,7 +65,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							
-							<h4 class="modal-title" id="myModallabel">Add New student</h4>
+							<h4 class="modal-title" id="myModallabel">Add New Student</h4>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 						<form id='student-frm'>
@@ -79,7 +79,7 @@
 									<input type="text" name="name" required="required" class="form-control" />
 								</div>
 								<div class="form-group">
-									<label>Level-Section</label>
+									<label>Major</label>
 									<input type="text" name ="level_section" required="" class="form-control" />
 								</div>
 								<div class="form-group">
@@ -104,7 +104,7 @@
 		$('#table').DataTable();
 		$('#new_student').click(function(){
 			$('#msg').html('')
-			$('#manage_student .modal-title').html('Add New student')
+			$('#manage_student .modal-title').html('Add New Student')
 			$('#manage_student #student-frm').get(0).reset()
 			$('#manage_student').modal('show')
 		})
