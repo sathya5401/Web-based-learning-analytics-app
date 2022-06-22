@@ -34,7 +34,7 @@
                                     <div class="login-button-alignment">
                                         <button class="login-button" name="submit">Login</button>
                                     </div>
-                                    <p> <a href=register.php> Register account </p>
+                                    <!-- <p> <a href=register.php> Register account </p> -->
                                 </form>
                             </div>
                         </div>

@@ -89,7 +89,7 @@
 									<label>Points per question</label>
 									<input type="nember" name ="qpoints" required="" class="form-control" />
 								</div>
-								<?php if($_SESSION['login_user_type'] == 1): ?>
+								<?php if($_SESSION['login_user_type'] == 1 || $_SESSION['login_user_type'] == 2 ): ?>
 								<div class="form-group">
 									<label>Lecturer</label>
 									<select name="user_id" required="required" class="form-control" />
@@ -119,7 +119,7 @@
 		$('#table').DataTable();
 		$('#new_quiz').click(function(){
 			$('#msg').html('')
-			$('#manage_quiz .modal-title').html('Add New quiz')
+			$('#manage_quiz .modal-title').html('Add New Quiz')
 			$('#manage_quiz #quiz-frm').get(0).reset()
 			$('#manage_quiz').modal('show')
 		})
