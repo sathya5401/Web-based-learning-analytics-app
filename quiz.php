@@ -27,7 +27,7 @@
 							<th>Items</th>
 							<th>Point per Items</th>
 							<?php if($_SESSION['login_user_type'] ==1): ?>
-							<th>Faculty</th>
+							<th>Lecturer</th>
 							<?php endif; ?>
 							<th>Action</th>
 						</tr>
@@ -74,7 +74,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							
-							<h4 class="modal-title" id="myModallabel">Add New quiz</h4>
+							<h4 class="modal-title" id="myModallabel">Add New Quiz</h4>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						</div>
 						<form id='quiz-frm'>
@@ -91,7 +91,7 @@
 								</div>
 								<?php if($_SESSION['login_user_type'] == 1): ?>
 								<div class="form-group">
-									<label>Faculty</label>
+									<label>Lecturer</label>
 									<select name="user_id" required="required" class="form-control" />
 									<option value="" selected="" disabled="">Select Here</option>
 									<?php
