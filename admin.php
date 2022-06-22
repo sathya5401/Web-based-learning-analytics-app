@@ -9,7 +9,7 @@
             header('Location:home.php');
         }
         ?>
-		<title>Admin | Simple Online Quiz System</title>
+		<title>Admin |  Online Quiz System</title>
 	</head>
 
 	<body id='login-body' class="bg-light">

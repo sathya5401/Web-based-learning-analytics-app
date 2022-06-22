@@ -10,7 +10,7 @@
             header('Location:home.php');
         }
         ?>
-		<title>Login | Simple Online Quiz System</title>
+		<title>Login |  Online Quiz System</title>
         <link rel="stylesheet" href="assets/css/login/login.css">
     </head>
     <body>
